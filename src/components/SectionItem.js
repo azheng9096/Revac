@@ -98,7 +98,7 @@ function SectionItem(props) {
                     </p>
                 </div>
 
-                <button className="add-section-btn btn ms-auto"> + Add Section </button>
+                {/* <button className="add-section-btn btn ms-auto"> + Add Section </button> */}
 
             </div>
 

@@ -1,0 +1,75 @@
+.course {
+    width: 100%;
+}
+
+.course-res {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.course-res .text h5 {
+    color: #393a5f;
+}
+
+.course-res .text p {
+    color:rgba(0, 0, 0, 0.65);
+}
+
+/* COURSE VIEW SECTION BUTTON */
+.course-res .view-section-btn {
+    text-transform: uppercase;
+    /* font-size: 0.8rem; */
+    /* font-size: calc(9px + 0.25vw); */
+    /* font-size: calc(7.5px + 0.35vw); */
+    font-size: calc(5.5px + 0.45vw);
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #393a5f;
+
+    border: 2px solid #393a5f;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-radius: 2rem;
+
+    /* padding: 0.5rem 1.75rem; */
+    padding: calc(2.5px + 0.35vw) calc(20.5px + 0.45vw);
+
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+
+.course-res .view-section-btn:hover {
+    background-color:  #393a5f;
+    color: whitesmoke;
+}
+
+
+/* COURSE DESCRIPTION TOGGLE */
+.course-desc-toggle {
+    color: rgba(0, 0, 0, .45);
+    background-color: transparent;
+}
+
+.course-desc-toggle:hover,
+.course-desc-toggle:focus {
+    color: rgba(0, 0, 0, .65);
+}
+
+.course-desc-toggle::after {
+    line-height: 0;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform .35s ease;
+    transform: rotate(180deg);
+
+    margin-left: 0.25rem;
+}
+
+.course-desc-toggle[aria-expanded="true"]::after {
+    transform: rotate(90deg);
+}
+
+
+/* COURSE DESCRIPTION */
+.course-desc {
+    color:rgba(0, 0, 0, 0.65);
+    letter-spacing: 0.35px;
+}

@@ -1,0 +1,5 @@
+#search-results {
+    /* Flex to allow child container to expand and fill up remaining width */
+    flex: 1;
+    overflow-y: auto;
+}

@@ -1,0 +1,52 @@
+/* OVERLAY */
+.overlay {
+    position: absolute;
+    z-index: 1000;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color:rgba(0, 0, 0, .65);
+}
+
+.overlayFadeIn {
+    opacity: 1;
+    width: 100%;
+    height: 100vh;
+    transition: opacity 0.35s;
+}
+
+.overlayFadeOut {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    transition: width 0.35s 0.35s, height 0.35s 0.35s, opacity 0.35s;
+}
+
+#section-overlay {
+    display: flex;
+
+    /* Change to display: flex on click  (see close.js)*/
+    align-items: center;
+    justify-content: center;
+}
+
+#section-close-btn {
+    cursor: pointer;
+}
+
+.course-sections {
+    width: 92.5vw;
+    max-height: 95vh;
+
+    border: 1px solid rgba(0, 0, 0, .65);
+
+    overflow-y: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .course-sections {
+        width: 75vw;
+        max-height: 65vh;
+    }
+}

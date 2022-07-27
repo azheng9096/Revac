@@ -1,0 +1,69 @@
+/* SECTION TEXT */
+.section-heading {
+    margin-bottom: 1rem;
+}
+
+#sections-text h5, .section-heading h5, .section-details b {
+    color: #393a5f;
+}
+
+.section-instructors {
+    letter-spacing: 0.35px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+
+/* ADD SECTION BUTTON */
+.add-section-btn {
+    color: #393a5f;
+    text-transform: uppercase;
+    /* font-size: 0.8rem; */
+    /* font-size: calc(9px + 0.25vw); */
+    /* font-size: calc(7.5px + 0.35vw); */
+    font-size: calc(5.5px + 0.45vw);
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    border: 2px solid #393a5f;
+
+    /* padding: 0.5rem 1.75rem; */
+    padding: calc(2.5px + 0.35vw) calc(18.5px + 0.55vw);
+
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.add-section-btn:hover {
+    background-color:  #393a5f;
+    color: whitesmoke;
+}
+
+
+/* READ MORE */
+/*
+.expand-text {
+    display: none;
+}
+*/
+
+.section-read-more {
+    color: rgba(0, 0, 0, .65);
+    transition: color ease-in-out 0.3s;
+
+    padding: 0.25rem 0.5rem;
+}
+
+.section-read-more:hover {
+    color: #393a5f;
+}
+
+
+/* BADGES */
+.section-badges {
+    margin-bottom: 0.25rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-badges{
+        margin-bottom: 0;
+    }
+}

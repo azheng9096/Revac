@@ -1,3 +1,7 @@
+# Revac
+
+Frontend to [Schedge](https://github.com/A1Liu/schedge), an open source API to NYU's course catalog. Still under development.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

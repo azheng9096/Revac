@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Revac/static/css/main.6d7eab02.css",
+    "main.js": "/Revac/static/js/main.6c15cad2.js",
+    "static/js/787.2bf53053.chunk.js": "/Revac/static/js/787.2bf53053.chunk.js",
+    "index.html": "/Revac/index.html",
+    "main.6d7eab02.css.map": "/Revac/static/css/main.6d7eab02.css.map",
+    "main.6c15cad2.js.map": "/Revac/static/js/main.6c15cad2.js.map",
+    "787.2bf53053.chunk.js.map": "/Revac/static/js/787.2bf53053.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d7eab02.css",
+    "static/js/main.6c15cad2.js"
+  ]
+}

@@ -36,17 +36,29 @@
 }
 
 .course-sections {
+    border: 1px solid rgba(0, 0, 0, .65);
+}
+
+#course-sections-overflow {
     width: 92.5vw;
     max-height: 95vh;
-
-    border: 1px solid rgba(0, 0, 0, .65);
-
     overflow-y: auto;
 }
 
 @media only screen and (min-width: 768px) {
-    .course-sections {
+    #course-sections-overflow {
         width: 75vw;
         max-height: 65vh;
     }
+}
+
+#course-sections-overflow::-webkit-scrollbar {
+    width: 5px;
+} 
+#course-sections-overflow::-webkit-scrollbar-track {
+    background: white;
+} 
+#course-sections-overflow::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 6px;
 }

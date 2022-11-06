@@ -2,6 +2,9 @@
 
 Frontend to [Schedge](https://github.com/A1Liu/schedge), an open source API to NYU's course catalog. Still under development.
 
+Important Note: Due to NYU schedule service change, the API (Schedge V1) is currently deprecated. Revac will be updated to follow Schedge V2 after its release.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

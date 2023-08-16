@@ -21,6 +21,7 @@
     width: 0;
     height: 0;
     transition: width 0.35s 0.35s, height 0.35s 0.35s, opacity 0.35s;
+    overflow: hidden;
 }
 
 #section-overlay {

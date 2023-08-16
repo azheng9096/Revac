@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Revac/static/css/main.1661432c.css",
-    "main.js": "/Revac/static/js/main.9e6be7e2.js",
+    "main.css": "/Revac/static/css/main.33ec66c5.css",
+    "main.js": "/Revac/static/js/main.daa333a0.js",
     "static/js/787.2bf53053.chunk.js": "/Revac/static/js/787.2bf53053.chunk.js",
     "index.html": "/Revac/index.html",
-    "main.1661432c.css.map": "/Revac/static/css/main.1661432c.css.map",
-    "main.9e6be7e2.js.map": "/Revac/static/js/main.9e6be7e2.js.map",
+    "main.33ec66c5.css.map": "/Revac/static/css/main.33ec66c5.css.map",
+    "main.daa333a0.js.map": "/Revac/static/js/main.daa333a0.js.map",
     "787.2bf53053.chunk.js.map": "/Revac/static/js/787.2bf53053.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1661432c.css",
-    "static/js/main.9e6be7e2.js"
+    "static/css/main.33ec66c5.css",
+    "static/js/main.daa333a0.js"
   ]
 }
